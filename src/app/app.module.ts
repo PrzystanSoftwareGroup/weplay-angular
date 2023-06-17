@@ -9,7 +9,8 @@ import '@cds/core/icon/register.js';
 import {ClarityIcons, cogIcon, playIcon} from '@cds/core/icon';
 import {CalendarComponent} from './component/calendar/calendar.component';
 import {AppRoutingModule} from "./app-routing.module";
-
+import { PageNotFundComponent } from './page-not-fund/page-not-fund.component';
+import {HomeComponent} from "./home/home.component";
 
 ClarityIcons.addIcons(cogIcon, playIcon);
 
@@ -17,7 +18,9 @@ ClarityIcons.addIcons(cogIcon, playIcon);
   declarations: [
     AppComponent,
     HeaderComponent,
-    CalendarComponent
+    HomeComponent,
+    CalendarComponent,
+    PageNotFundComponent
   ],
   imports: [
     BrowserModule, BrowserAnimationsModule, ClarityModule, AppRoutingModule
