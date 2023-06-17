@@ -8,6 +8,7 @@ import {HeaderComponent} from './component/header/header.component';
 import '@cds/core/icon/register.js';
 import {ClarityIcons, cogIcon, playIcon} from '@cds/core/icon';
 import {CalendarComponent} from './component/calendar/calendar.component';
+import {AppRoutingModule} from "./app-routing.module";
 
 
 ClarityIcons.addIcons(cogIcon, playIcon);
@@ -19,7 +20,7 @@ ClarityIcons.addIcons(cogIcon, playIcon);
     CalendarComponent
   ],
   imports: [
-    BrowserModule, BrowserAnimationsModule, ClarityModule
+    BrowserModule, BrowserAnimationsModule, ClarityModule, AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
