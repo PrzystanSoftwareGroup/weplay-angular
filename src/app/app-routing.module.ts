@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import {CalendarComponent} from "./component/calendar/calendar.component";
-import {PageNotFundComponent} from "./page-not-fund/page-not-fund.component";
-import {HomeComponent} from "./home/home.component";
+import {PageNotFundComponent} from "./component/page-not-fund/page-not-fund.component";
+import {HomeComponent} from "./component/home/home.component";
 
 const routes: Routes = [
   { path: 'calendar', component: CalendarComponent },
