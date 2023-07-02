@@ -1,0 +1,39 @@
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: white;
+}
+
+.welcome-title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.purple-text {
+  color: #390052;
+}
+
+.welcome-description {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.get-started-button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  background-color: #320047;
+  border-color: #320047;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.get-started-button:hover {
+  color: #320047;
+  background-color: white;
+  outline-color: #320047;
+}

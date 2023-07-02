@@ -12,6 +12,7 @@ import {AppRoutingModule} from "./app-routing.module";
 import { PageNotFundComponent } from './component/page-not-fund/page-not-fund.component';
 import {HomeComponent} from "./component/home/home.component";
 import { FullCalendarModule } from '@fullcalendar/angular';
+import { WelcomeComponent } from './component/welcome/welcome.component';
 
 ClarityIcons.addIcons(cogIcon, playIcon);
 
@@ -21,7 +22,8 @@ ClarityIcons.addIcons(cogIcon, playIcon);
     HeaderComponent,
     HomeComponent,
     CalendarComponent,
-    PageNotFundComponent
+    PageNotFundComponent,
+    WelcomeComponent
   ],
   imports: [
     BrowserModule,
